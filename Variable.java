@@ -41,10 +41,10 @@ public class Variable {
         System.out.println("hi i am coming from earth : " + Shield.earth);
         System.out.println("hi i am coming from earth : " + a.earth);
 
-        // accessing static method from different class static method
+        // accessing static method from Shield class
         Shield.something();
 
-        // accessing static method from same class
+        // accessing static method from same class(Variable class)
         rocket();
 
     }
