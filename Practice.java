@@ -59,21 +59,23 @@ public class Practice{
     String name;
     int age;
 
-    Practice(String na){
+    Practice(String na,int ag){
         this.name=na;
+        this.age=ag;
         // System.out.println(name);
     }
 
     void display(){
         System.out.println(name);
+        System.out.println(age);
     }
 
    
 
     public static void main(String[] args) {
         // String name = "thor";
-        Practice a = new Practice("thor");
-        Practice b = new Practice("Loky");
+        Practice a = new Practice("thor",3);
+        Practice b = new Practice("Loky",4);
         a.display();
         b.display();
         // System.out.println(a.name);
