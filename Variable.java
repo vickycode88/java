@@ -33,7 +33,7 @@ public class Variable {
         // accessing instance variable
         System.out.println("my friend name is : " + a.f_name);
 
-        // accessing static varible but this is not preferred to access any static variable.
+        // accessing static varible but this is not preferred way to access any static variable.
         a.earth = 618;
         // preffered way to accessing static variable
         Shield.earth = 616;
