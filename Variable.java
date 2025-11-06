@@ -49,7 +49,7 @@ public class Variable {
 
     }
 
-    // static method in same class
+    // static method in same class(Variable class)
     static void rocket() {
         System.out.println("hi i am Rocket.....");
     }
