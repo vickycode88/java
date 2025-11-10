@@ -1,6 +1,7 @@
 
 class Calculator {
-    
+    int a;
+    int b;
     Calculator(int a, int b) {
         int sum = a + b;
         int diff = a - b;
