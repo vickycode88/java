@@ -9,7 +9,7 @@ class ArmstrongEasy {
 
         int original = num;
         int sum = 0;
-        int c=0;
+       
 
         
 
