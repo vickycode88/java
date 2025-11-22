@@ -4,7 +4,7 @@ abstract class A {
 
     void rocket(String name) {
 
-        System.out.println("i am rocket");
+        System.out.println("i am "+ name);
 
     }
 
@@ -36,6 +36,8 @@ public class Abstraction {
 
         Iron i = new Iron();
         i.fantastic();
+        i.antman();
+        i.rocket("vicky");
 
     }
 
