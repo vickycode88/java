@@ -15,7 +15,7 @@ public class Rev {
         
        }
 
-       System.out.println("reverse of "+n+" is :"+rev);
+       System.out.println("reverse of 1234 is : "+rev);
 
     }
     
