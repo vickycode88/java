@@ -17,7 +17,7 @@ class Hulk extends Avenger {
 }
 
 
-class MethodOveriding {
+public class MethodOverriding {
     
     public static void main(String[] args) {
         Avenger a;
