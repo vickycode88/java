@@ -1,18 +1,18 @@
-class Avenger {
+class Rocket {
     void attack() {
         System.out.println("Avenger attacks!");
     }
 }
 
-class IronMan extends Avenger {
+class IronMan extends Rocket {
     void attack() { System.out.println("Iron Man attacks with lasers!"); }
 }
 
-class Thor extends Avenger {
+class Thor extends Rocket {
     void attack() { System.out.println("Thor attacks with lightning!"); }
 }
 
-class Hulk extends Avenger {
+class Hulk extends Rocket {
     void attack() { System.out.println("Hulk smashes everything!"); }
 }
 
@@ -20,7 +20,7 @@ class Hulk extends Avenger {
 public class MethodOverriding {
     
     public static void main(String[] args) {
-        Avenger a;
+        Rocket a;
 
         a = new IronMan(); 
         a.attack();  
