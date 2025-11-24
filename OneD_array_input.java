@@ -11,7 +11,7 @@ class ArrayInput {
 
         System.out.println("Enter " + size + " elements:");
 
-        // Input values using a loop
+       
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();  
         }
