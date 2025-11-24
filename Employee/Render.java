@@ -7,10 +7,10 @@ public class Render {
         
         Fulltime f = new Fulltime(30000, 5000, 3000);
 
-        System.out.println("full time : "+f.Full());
+        System.out.println("full time annual salary : "+f.Full());
 
         Parttime p = new Parttime(80, 180);
-        System.out.println("Part time : "+ p.Part());
+        System.out.println("Part time annual salary : "+ p.Part());
 
     }
 }
