@@ -2,18 +2,18 @@ package Inter;
 
 interface A {
     int x=20;
-    void m1();
+    void a1();
 }
 
 interface B extends A {
     int x=30;
-    void m2();
+    void a2();
 }
 
 //  If we Don't implements both the method (m1, m2) in sub class then we have to make Demo class as abstract class.
 class Demo implements B {
     
-    public void m1() {
+    public void a1() {
         System.out.println("m1 implemented");
         System.out.println("value of x from Interface A: "+A.x);   // InterfaceName.constant
         System.out.println("value of x from Interface B: "+B.x);   // InterfaceName.constant
@@ -21,7 +21,7 @@ class Demo implements B {
         // If we don't use InterfaceName.constant then result will be 30 for both
     }
     
-    public void m2() {
+    public void a2() {
         System.out.println("m2 implemented");
     }
 }
@@ -29,7 +29,7 @@ class Demo implements B {
 public class Concept_2 {
     public static void main(String[] args) {
         Demo obj = new Demo();
-        obj.m1();
-        obj.m2();
+        obj.a1();
+        obj.a2();
     }
 }
