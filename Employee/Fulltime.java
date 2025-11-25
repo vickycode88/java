@@ -1,4 +1,4 @@
-package Employee;
+
 
 class Fulltime extends Salary {
 

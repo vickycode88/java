@@ -1,4 +1,4 @@
-package Employee;
+// package Employee;
 
 class Parttime extends Salary {
 
