@@ -20,7 +20,7 @@ class Demo implements B {
 
         // If we don't use InterfaceName.constant then result will be 30 for both
     }
-    
+     
     public void m2() {
         System.out.println("m2 implemented");
     }
